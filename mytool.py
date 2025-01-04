@@ -11,6 +11,7 @@ def green_text(words):
     for i in words:
         cprint(i, "green")
 
+# Just a cool ascii picture
 green_text(["  __     ___  ___  ___  ", " |   \\  |    |    |   |", " |    | |=-  |=-  |---' ", " |___/  |___ |___ |     "])
 text = colored("o---|-----------------------", "red", attrs=["blink"])
 print(text)
